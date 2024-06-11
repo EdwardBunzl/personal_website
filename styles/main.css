@@ -5,6 +5,8 @@ body {
     font-family: 'Source Sans 3';
     font-weight: 300;
     font-size: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 b { font-weight: 550; }
 footer { margin-top: 4em; border-top: 2px dashed rgb(221, 221, 221); font-size: medium; text-align: center; }
@@ -14,7 +16,7 @@ h1, h2 { text-align: center; font-weight: unset; }
 .head_image { text-align: center; }
 .head_image > h1 { font-size: 2.3em; margin: 0;}
 h2 { font-size: 40px; margin-top: 1.5em; }
-.centerimage { display: block; margin: auto; }
+.centerimage { display: block; margin: auto; max-width: 100%;}
 
 nav a { color:black; text-decoration: none; transition: color .5s ease-in-out;} /* Globally */
 nav a.current { text-decoration: none; color:rgb(68, 114, 196); }
@@ -79,23 +81,5 @@ main { text-align: left; }
     justify-content: space-around;
 }
 
-
-
 .client{ filter: grayscale(100%); transition: filter .2s ease-in-out; height: 60px;}
 .client:hover { filter: none;}
-
-@media (min-width: 1224px) {
-.testimage {
-    margin-left:-5em;
-    margin-right:-5em;
-}
-
-.testimage {
-    margin-left:-5em;
-    margin-right:-5em;
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-}
-
-}
